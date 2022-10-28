@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body,h1,h2,h3,h4,h5 {font-family: "Raleway", 'Times New Roman', Times, serif}
+      .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+  </head>
+
+  <nav>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+     <div class="w3-bar" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      </a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">ASSIGNMENTS<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="file:///C:/Users/Kristyle%20Marie%20Modin/Documents/Conversion_Final.html" class="w3-bar-item w3-button">Assignment #1 Conversion (Celsius to Fahrenheit, Fahrenheit to Celcsius, Meters to Feet, Feet to Meters)</a>
+          <a href="file:///C:/Users/Kristyle%20Marie%20Modin/Documents/Income%20Tax%20Calculator_Final.html" class="w3-bar-item w3-button">Assignment # 2 Income Tax Calculator</a>
+          <a href="file:///C:/Users/Kristyle%20Marie%20Modin/Documents/For%20N%20numbers_Final.html" class="w3-bar-item w3-button">Assignment #3 Factorial (While Loop), Sum (Do While Loop) and Average (For Loop) of First N Natural Numbers</a>
+          <a href="file:///C:/Users/Kristyle%20Marie%20Modin/Documents/Simple%20Payroll_Final.html" class="w3-bar-item w3-button">Assignment #4 Simple Payroll</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+      <img src="https://media-private.canva.com/MADOpSk4DM8/1/screen_2x.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221028T050300Z&X-Amz-Expires=78688&X-Amz-Signature=7815e51c2e96b71620f36c0c2bad6b7db509425f6acf3ae5e51920e6c42806f4&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2029%20Oct%202022%2002%3A54%3A28%20GMT" width="1500" height="400">
+      <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-black w3-opacity-min"><b>CS 1130</b></span><br> <span class="w3-hide-small w3-text-white">Introduction to Computing</span></h1>
+        <h4><center> <span class= "w3-hide-small w3-text-white">Kristyle Marie G. Modin</span></center></h4>
+        <h5><center> <span class="w3-hide-small w3-text-white">4-101 MW | Afternoon Schedule</span></center></h5>
+      </div>
+  </header>
+
+  <body>
+    <div class="columns is-centered"></div>
+    <div class="column content is-7 mt-6">
+      <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT</span></h5>
+        <p>This is the website for viewing HTML and Javascript Programming Examples for students who are taking the Introduction to Computing Class (CS 1130) under the Computer Studies Division, School of Arts and Sciences of the Ateneo de Davao University. This is a personal website for the course CS 1130 - Introduction to Computing by John Roy A. Geralde - Class Instructor for student assignment submissions. This student is expected to complete all the assignment submissions before or on October 29, 2022. Simple Examples involving Basic HTML, Javascript Functions, User Interaction and Performing Mathematical Calculations are shown.</p>
+      </div>
+
+      <div class="block my-6">
+        <h2>Student's Information</h2>
+        <div class="box column is-5">
+          <p>
+            <strong>Name</strong>: Modin, Kristyle Marie G. Modin <br />
+            <strong>College</strong>: Ateneo de Davao University<br />
+            <strong>Course</strong>: BS Computer Science <br />
+            <strong>Year</strong>: First Year <br />
+          </p>
+        </div>
+      </div>    
+
+      <div class="block my-6">
+        <h3>Assignments (clickable link)</h3>
+        <ul>
+          <li>
+            <a href="./assignments html/assignment-1.html" class="has-text-black"
+              ><strong
+                >Assignment #1 - Conversion (Celsius to Fahrenheit, Fahrenheit to Celsius, Meters to Feet, Feet to
+                Meters)</strong
+              ></a
+            >
+          </li>
+          <li>
+            <a href="./assignments html/assignment-2.html" class="has-text-black"
+              ><strong>Assignment #2 - Income Tax Calculator</strong></a
+            >
+          </li>
+          <li>
+            <a href="./assignments html/assignment-3.html" class="has-text-black"
+              ><strong
+                >Assignment #3 - Factorial (While Loop), Sum (Do While Loop) and Average (For Loop) of First N Natural
+                Numbers</strong
+              ></a
+            >
+          </li>
+          <li>
+            <a href="./assignments html/assignment-4.html" class="has-text-black"
+              ><strong>Assignment #4 - Simple Payroll</strong></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+  </script>
+</html>
